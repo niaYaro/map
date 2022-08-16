@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&family=Noto+Sans&family=Oswald:wght@400;700&family=Square+Peg&display=swap");
+body {
+  background-color: azure;
+  font-family: Mukta;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+path:hover, circle:hover {
+  stroke: darkslategrey !important;
+  stroke-width: 2px;
+  stroke-linejoin:round;
+  fill: darkslategrey !important;
+  cursor: pointer;
+}
+
+span {
+  font-weight: 800;
+}
+
+.header {
+  background-color: darkslategrey;
+  color: #ececec;
+  padding: 1px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px;
+}
+
+.flag-wrap {
+  display: none;
+  border: solid darkslategrey 7px;
+  background-color: #ececec;
+  width: 300px;
+  height: 400px;
+  border-radius: 17px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+}
+
+.flag {
+  border-radius: 7px;
+  width: 250px;
+  height: 150px;
+  margin: 15px 25px;
+}
+
+.flag-square {
+  border-radius: 7px;
+  width: 150px;
+  height: 150px;
+  margin: 15px 75px;
+}
+
+.data {
+  font-weight: 800;
+  font-size: large;
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: darkslategrey;
+  color: #ececec;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+}
